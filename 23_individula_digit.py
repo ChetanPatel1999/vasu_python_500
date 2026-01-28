@@ -5,4 +5,6 @@ r=num//100
 s=(num%100)//10
 t=num%10
 sum=r+s+t
+rev=r+s*10+t*100
 print(f"sum of individual digit : {sum}")
+print(f"reverse num : {rev}")
