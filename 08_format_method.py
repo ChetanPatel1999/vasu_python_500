@@ -1,10 +1,10 @@
 #display data using format method of string
-a=120
+a = 120
 b=50
-c=a+b
+c= a + b
 name="raj varma"
 city="indore"
-cm=5.7
+c_123m=5.7
 
 print("value of a = {}".format(a))
 print("value of b = {}".format(b))
