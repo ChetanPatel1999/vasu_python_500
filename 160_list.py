@@ -5,4 +5,5 @@ totalMarks=0
 for num in marks:
      totalMarks=totalMarks+num #150
 
-print(totalMarks)
+print("total marks :" ,totalMarks)
+print("avearge marks of all student :",totalMarks/len(marks))
