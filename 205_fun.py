@@ -4,6 +4,7 @@ def pattern():
             print("#",end="  ")
         print()    
 
+ 
 
 
 pattern()
