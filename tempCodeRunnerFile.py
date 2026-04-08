@@ -1,1 +1,1 @@
-print(delete)
+cube,square
