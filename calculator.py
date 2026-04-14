@@ -10,4 +10,4 @@ def mul(a,b):
 def div(a,b):
     print("division = ",a/b)   
 
-
+s="my name is chetan"

@@ -54,8 +54,9 @@
 
 
 # we can import multiple module using sigle import stmnt
-from calculator import add  
+from calculator import add,s  
 from greeting import greet1
 
 add(12,6)
 greet1()
+print(s)
