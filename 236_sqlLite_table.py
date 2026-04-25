@@ -14,9 +14,9 @@ create table if not exists employees (
                sallary real not null,
                joining_date text not null )""")
 
-# emp=[("ram","IT",12000,"12/01/2025"),("raj","IT",15000,"15/01/2025"),("mohan","HR",1000,"30/01/2025")]
+emp=[("ram","IT",12000,"12/01/2025"),("raj","IT",15000,"15/01/2025"),("mohan","HR",1000,"30/01/2025")]
 
-# cursor.executemany("insert into employees (name , department, sallary ,joining_date) values (?,?,?,?) ",emp)
+cursor.executemany("insert into employees (name , department, sallary ,joining_date) values (?,?,?,?) ",emp)
 
 conn.commit()   
 
